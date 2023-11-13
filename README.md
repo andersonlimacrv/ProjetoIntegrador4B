@@ -51,16 +51,61 @@ Entrega final online (Plataforma A): De 04/12 até 09/12 às 23:59h
 
 Obs: `Entrega apenas via Plataforma A.`
 
-## REFERÊNCIAS OBRIGATÓRIAS
+## REFERÊNCIAS
 - MILETTO, E.M.; BERTAGNOLLI, S.C. Desenvolvimento de Software II: Introdução ao desenvolvimento web com HTML, CSS, JavaScript e PHP. Porto Alegre: Bookman, 2014.
 - ROBSON, E.; FREEMAN, E. Use a cabeça! HTML e CSS. Alta Books, 2ª edição, 2015.
 - HERRINGTON, J.D. PHP Hacks: Dicas e ferramentas para criação de web sites dinâmicos. Porto Alegre: Bookman, 2007.
 - ADAMS, C.; BOLTON, J.; JOHNSON, D.; SMITH, S.; SNOOK, J. A arte e a ciência da CSS: crie web designs inspiradores baseados em padrões. Porto Alegre: Bookman, 2009.
 - FLANAGAN, David. Javascript: o guia definitivo. Porto Alegre: Bookman, 6ª edição, 2013.
 
-## REFERÊNCIAS COMPLEMENTARES
-- PRESSMAN, R.S.; MAXIM, B.R. Engenharia de software: uma abordagem profissional. 8. ed. Porto Alegre: McGraw Hill, 2016.
-- POPPENDIECK, M.; POPPENDIECK, T. Implementando o desenvolvimento Lean de software: do conceito ao dinheiro. Porto Alegre: Bookman, 2011.
-- HAROLD, E.R. Refatorando HTML: como melhorar o projeto de aplicações web existentes. Porto Alegre: Bookman, 2010.
-- ROBBINS, J.N. Aprendendo web design. Bookman, 3ª edição, 2010.
-- SILVA, M.S. Criando sites com HTML. São Paulo: Novatec, 2008.
+# EXEMPLO DE JSON:
+
+
+Certamente! Aqui estão exemplos de como os dados podem ser estruturados no formato JSON:
+
+json
+```
+[
+  {
+    "cliente_id": 1,
+    "nome": "Cliente 1",
+    "endereço": "Rua A, 123",
+    "cep": "12345-678",
+    "data_de_nascimento": "1990-01-01",
+    "telefone": "(00) 1234-5678"
+  },
+  {
+    "cliente_id": 2,
+    "nome": "Cliente 2",
+    "endereço": "Rua B, 456",
+    "cep": "98765-432",
+    "data_de_nascimento": "1985-05-15",
+    "telefone": "(00) 9876-5432"
+  },
+  {
+    "cliente_id": 3,
+    "nome": "Cliente 3",
+    "endereço": "Rua C, 789",
+    "cep": "54321-876",
+    "data_de_nascimento": "1988-10-20",
+    "telefone": "(00) 5432-1876"
+  },
+  {
+    "cliente_id": 4,
+    "nome": "Cliente 4",
+    "endereço": "Rua D, 101",
+    "cep": "67890-123",
+    "data_de_nascimento": "1992-03-30",
+    "telefone": "(00) 6789-0123"
+  },
+  {
+    "cliente_id": 5,
+    "nome": "Cliente 5",
+    "endereço": "Rua E, 202",
+    "cep": "23456-789",
+    "data_de_nascimento": "1982-12-05",
+    "telefone": "(00) 2345-6789"
+  }
+]
+```
+
