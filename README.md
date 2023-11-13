@@ -60,10 +60,6 @@ Obs: `Entrega apenas via Plataforma A.`
 
 # EXEMPLO DE JSON:
 
-
-Certamente! Aqui estão exemplos de como os dados podem ser estruturados no formato JSON:
-
-json
 ```
 [
   {
@@ -108,4 +104,69 @@ json
   }
 ]
 ```
+
+JSON melhor tratado. Sugestão:
+
+```
+[
+  {
+    "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "name": "Cliente Anônimo",
+    "address": {
+      "street": "Rua Anônima",
+      "number": 0,
+      "city": "Cidade Anônima",
+      "cep": "00000-000",
+      "state": "XX",
+      "country": "AN"
+    },
+    "birthdate": "01/01/2000",
+    "phone_number": "00000000000"
+  }
+]
+```
+
+JSON com mais campos e exemplo de utilização:
+```
+[
+  {
+    "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "name": "Cliente Anônimo",
+    "contact": {
+      "email": "cliente.anonimo@example.com",
+      "phone_number": "+00 (0)123 456 7890"
+    },
+    "address": {
+      "street": "Rua Anônima",
+      "number": 0,
+      "city": "Cidade Anônima",
+      "cep": "00000-000",
+      "state": "XX",
+      "country": "AN"
+    },
+    "birthdate": "01/01/2000",
+    "registration_date": "01/01/2022",
+    "last_access": {
+      "date": "01/01/2023",
+      "location": "Página Inicial",
+      "device": "Computador"
+    },
+    "products_purchased": [
+      {
+        "product_id": "p1",
+        "product_name": "Produto 1",
+        "price": 19.99
+      },
+      {
+        "product_id": "p2",
+        "product_name": "Produto 2",
+        "price": 29.99
+      }
+    ]
+  }
+]
+
+
+```
+
 
