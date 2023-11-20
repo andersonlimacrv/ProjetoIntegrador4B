@@ -143,14 +143,14 @@ O projeto segue a seguinte estrutura de diretórios:
 ```
 ├───app
 │   ├─── controller
-│   │       └─── clients.py
+│   │      └─── clients.py
 │   ├─── model
-│   │       └─── clients.py
+│   │      └─── clients.py
 │   ├─── repository
-│   │       └─── clients.json
+│   │      └─── clients.json
 │   ├───router
 │   │      └─── clients.py
-│   │       └─── home.py
+│   │      └─── home.py
 │   ├─── service
 │   └─── main.py
 ├─── migrations
@@ -163,7 +163,7 @@ O projeto segue a seguinte estrutura de diretórios:
   - **`Diretório repository`:** Armazena arquivos, como o `clients.json`.
   - **`Diretório router`:** Define apenas as rotas da api separados por `slug`.
   - **`Diretório service`:** Fornece serviços adicionais, se necessário.
-  - **`arquivo main`**: onde roda de fato nossa aplicação. 
+  - **`arquivo main.py`**: onde roda de fato nossa aplicação. 
 
 - **`migrations`:** Diretório para possíveis migrações de banco de dados, nesse caso não temos pois não temos banco de dados..
 
@@ -251,6 +251,7 @@ Uma API é um conjunto de rotinas e padrões estabelecidos por uma aplicação p
 - **POST:** Enviar dados ou informações para serem processados por um Resource.
 - **PUT:** Atualizar dados de um Resource.
 - **DELETE:** Deletar um Resource.
+- **PATCH:** Atualizar parcialmente dados de um Resource.
 
 **STATUS DAS RESPOSTAS:**
 - **1xx:** Informação.
@@ -265,6 +266,5 @@ Uma API é um conjunto de rotinas e padrões estabelecidos por uma aplicação p
 - **5xx:** Erro do Servidor (500: Internal Server Error).
   - `500`: Internal Server Error 
 
-Este material fornece uma compreensão abrangente de API, REST e RESTful, destacando tanto os conceitos fundamentais quanto as práticas recomendadas.
 
 
