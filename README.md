@@ -64,45 +64,46 @@ Obs: `Entrega apenas via Plataforma A.`
 [
   {
     "cliente_id": 1,
-    "nome": "Cliente 1",
-    "endereço": "Rua A, 123",
+    "nome": "João Silva",
+    "endereco": "Rua A, 123",
     "cep": "12345-678",
     "data_de_nascimento": "1990-01-01",
-    "telefone": "(00) 1234-5678"
+    "telefone": "(53) 91234-5678"
   },
   {
     "cliente_id": 2,
-    "nome": "Cliente 2",
-    "endereço": "Rua B, 456",
+    "nome": "Maria Oliveira",
+    "endereco": "Rua B, 456",
     "cep": "98765-432",
     "data_de_nascimento": "1985-05-15",
-    "telefone": "(00) 9876-5432"
+    "telefone": "(53) 99876-5432"
   },
   {
     "cliente_id": 3,
-    "nome": "Cliente 3",
-    "endereço": "Rua C, 789",
+    "nome": "Carlos Santos",
+    "endereco": "Rua C, 789",
     "cep": "54321-876",
     "data_de_nascimento": "1988-10-20",
-    "telefone": "(00) 5432-1876"
+    "telefone": "(53) 91432-1876"
   },
   {
     "cliente_id": 4,
-    "nome": "Cliente 4",
-    "endereço": "Rua D, 101",
+    "nome": "Ana Souza",
+    "endereco": "Rua D, 101",
     "cep": "67890-123",
     "data_de_nascimento": "1992-03-30",
-    "telefone": "(00) 6789-0123"
+    "telefone": "(53) 91789-0123"
   },
   {
     "cliente_id": 5,
-    "nome": "Cliente 5",
-    "endereço": "Rua E, 202",
+    "nome": "Luiz Pereira",
+    "endereco": "Rua E, 202",
     "cep": "23456-789",
     "data_de_nascimento": "1982-12-05",
-    "telefone": "(00) 2345-6789"
+    "telefone": "(53) 92345-6789"
   }
 ]
+
 
 ```
 # SOBRE A API `ENTREGA FINAL` :
