@@ -63,47 +63,51 @@ Obs: `Entrega apenas via Plataforma A.`
 ```
 [
   {
-    "cliente_id": 1,
-    "nome": "João Silva",
-    "endereco": "Rua A, 123",
+    "id": 1,
+    "name": "Joao Silva",
+    "email": "",
+    "address": "Rua A, 123",
     "cep": "12345-678",
-    "data_de_nascimento": "1990-01-01",
-    "telefone": "(53) 91234-5678"
+    "birthdate": "1990-01-01",
+    "phone": "(53) 91234-5678"
   },
   {
-    "cliente_id": 2,
-    "nome": "Maria Oliveira",
-    "endereco": "Rua B, 456",
+    "id": 2,
+    "name": "Maria Oliveira",
+    "email": "",
+    "address": "Rua B, 456",
     "cep": "98765-432",
-    "data_de_nascimento": "1985-05-15",
-    "telefone": "(53) 99876-5432"
+    "birthdate": "1985-05-15",
+    "phone": "(53) 99876-5432"
   },
   {
-    "cliente_id": 3,
-    "nome": "Carlos Santos",
-    "endereco": "Rua C, 789",
+    "id": 3,
+    "name": "Carlos Santos",
+    "email": "",
+    "address": "Rua C, 789",
     "cep": "54321-876",
-    "data_de_nascimento": "1988-10-20",
-    "telefone": "(53) 91432-1876"
+    "birthdate": "1988-10-20",
+    "phone": "(53) 91432-1876"
   },
   {
-    "cliente_id": 4,
-    "nome": "Ana Souza",
-    "endereco": "Rua D, 101",
+    "id": 4,
+    "name": "Ana Souza",
+    "email": "",
+    "address": "Rua D, 101",
     "cep": "67890-123",
-    "data_de_nascimento": "1992-03-30",
-    "telefone": "(53) 91789-0123"
+    "birthdate": "1992-03-30",
+    "phone": "(53) 91789-0123"
   },
   {
-    "cliente_id": 5,
-    "nome": "Luiz Pereira",
-    "endereco": "Rua E, 202",
+    "id": 5,
+    "name": "Luiz Pereira",
+    "email": "",
+    "address": "Rua E, 202",
     "cep": "23456-789",
-    "data_de_nascimento": "1982-12-05",
-    "telefone": "(53) 92345-6789"
+    "birthdate": "1982-12-05",
+    "phone": "(53) 92345-6789"
   }
 ]
-
 
 ```
 # SOBRE A API `ENTREGA FINAL` :
