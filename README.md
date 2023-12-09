@@ -287,12 +287,19 @@ Uma API é um conjunto de rotinas e padrões estabelecidos por uma aplicação p
      - `101`: Switching Protocols
      - `102`: Processing
 - **2xx:** Sucesso.
-     - `200`: OK
-     - `201`: CREATED
+     - `200`: Ok
+     - `201`: Created
      - `202`: Accepted
      - `203`: Non-Authoritative Information
      - `204`: No Content
 - **3xx:** Redirecionamento.
+     - `300`: Multiple Choices
+     - `301`: Moved Permanently
+     - `302`: Found
+     - `303`: See Other
+     - `304`: Not Modified
+     - `305`: Use Proxy
+     - `306`: Switch Proxy
 - **4xx:** Erro do Cliente.
      - `400`: Bad Request
      - `401`: Unauthorized
